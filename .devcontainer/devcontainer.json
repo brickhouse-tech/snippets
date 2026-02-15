@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"name": "Ubuntu (Debian Bullseye)",
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "22"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	}
+}
